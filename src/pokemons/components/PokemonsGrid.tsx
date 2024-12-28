@@ -10,8 +10,7 @@ export const PokemonsGrid = ({ pokemons }:Props) => {
     <>
         {
           pokemons.map(pokemon =>  
-              
-              <PokemonsCard pokemon={pokemon} key={pokemon.uid}></PokemonsCard>
+            <PokemonsCard pokemon={pokemon} key={pokemon.uid}></PokemonsCard>
           )
         }
     </>
